@@ -6,6 +6,8 @@
     --paragraph-font: Roboto, Helvetica, sans-serif;
 
 }
+
+/* HOME */
 header {
     background-color: #2249713a;
     display: grid;
@@ -189,6 +191,42 @@ footer .social img {
     width: 80px;
     padding-top: 10px;
 }
+/* END HOME*/
+
+
+/* RIVERS */
+
+.rivers-main {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.rivers-title {
+    margin-top: 50px;
+    font-size: 42px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+.rivers-subtitle {
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+.rivers-text {
+    font-size: 22px;
+    text-align: justify;
+    font-family: var(--paragraph-font);
+}
+.rivers-header {
+    background-color: #224971;
+}
+.rivers-image img {
+    width: 600px;
+    display: block;
+    margin: 50px auto;
+}
+/* END RIVERS */
 
 @media screen and (max-width: 900px) {
     header {
@@ -232,5 +270,8 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+    .rivers-image img {
+        width: 80%;
     }
 }
