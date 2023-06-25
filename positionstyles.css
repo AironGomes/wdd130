@@ -6,6 +6,8 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   gap: 20px;
+  width: 80%;
+  margin: 0 auto;
 }
 .red1 { 
   width: 100%;
