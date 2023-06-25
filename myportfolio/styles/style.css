@@ -181,10 +181,24 @@ footer .social img {
   to {opacity: 1}
 }
 
-
-
 /* END HOME*/
 
+/* PROFESSIONAL */
+#professional-cover {
+    width: 100%;
+}
+#professional-title {
+    text-align: center;
+}
+.experience-data {
+    margin: 0;
+}
+.professional-text {
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+/* END PROFESSIONAL */
 
 @media screen and (max-width: 900px) {
     nav, footer {
