@@ -198,6 +198,31 @@ footer .social img {
     text-align: justify;
     margin: 0 auto;
 }
+.container-professional {
+    width: 80%;
+    border: 2px solid #095BA2;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 100px auto;
+  }
+  
+  .container-professional::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container-professional img {
+    width: 200px;
+    float: left;
+    margin-right: 100px;
+    border-radius: 50%;
+  }
+  
+  .container-professional p {
+    text-align: left;
+    font-size: 20px;
+  }
 /* END PROFESSIONAL */
 
 @media screen and (max-width: 900px) {
@@ -218,4 +243,16 @@ footer .social img {
     }
     .prev, .next {font-size: 11px}
     .text-img {font-size: 16px}
+
+    .container-professional {
+        text-align: center;
+    }
+    .container-professional img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+    .container-professional p {
+        font-size: 16px;
+    }
 }
