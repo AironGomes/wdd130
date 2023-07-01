@@ -25,6 +25,9 @@ h4 {
     color: #224a71;
     padding-top: 40px;
 }
+#home-title {
+  font-size: 28px;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
 }
@@ -186,9 +189,12 @@ footer .social img {
 /* PROFESSIONAL */
 #professional-cover {
     width: 100%;
+    max-height: 600px;
+    object-fit: cover;
 }
 #professional-title {
     text-align: center;
+    font-size: 28px;
 }
 .experience-data {
     margin: 0;
@@ -229,6 +235,7 @@ footer .social img {
 
   #qualifications-title {
     text-align: center;
+    font-size: 28px;
   }
   
   .qualifications-content {
@@ -237,7 +244,7 @@ footer .social img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 80%;
-    margin: 0 auto;
+    margin: 60px auto;
   }
   .qualifications-content-img1 { 
     grid-column: 1/2;
@@ -293,4 +300,11 @@ footer .social img {
         display: block;
         height: auto;
     }
+    #professional-cover {
+      width: 100%;
+      object-fit: cover;
+  }
+  #professional-title, #qualifications-title, #home-title {
+    font-size: 24px;
+}
 }
