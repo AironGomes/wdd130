@@ -263,6 +263,10 @@ footer .social img {
     margin: 0;
     padding: 0;
   }
+  .logo_img {
+    border-radius: 50%;
+  }
+  
 
 /* END QUALIFICATIONS*/
 
